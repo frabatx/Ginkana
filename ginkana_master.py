@@ -4,7 +4,7 @@
 # Group: A1
 #
 # The program sends, receives and elaborates messages with server
-# The entire project is been update in Github at link
+# The entire project is been update in Github at link https://github.com/frabatx/Ginkana.git
 # If you want to do the step4 you need root permission with "sudo" word
 
 import a_ginkana_client as a
