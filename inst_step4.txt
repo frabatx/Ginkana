@@ -1,0 +1,33 @@
+74674
+You passed the step 3!
+
+Step 4: Ping
+-------------
+
+- You must send an ICMP Echo Request message to atclab.esi.uclm.es.
+  The payload of this message must include, AFTER the usual
+  content, the ASCII string "74674".
+
+     +--------------+----------------------------+
+     | Echo Request |                            |
+     | Header       | timestamp(8 bytes) + 74674 |
+     +--------------+----------------------------+
+
+- You will receive an ICMP Echo Reply message with just instructions to
+  continue as payload.
+
+You have 5 seconds.
+
+Hints:
+- Using wireshark, analyze the content and size of a conventional ping
+  message. You can send pings that are shorter than normal with "ping -s size".
+- Study the chapter "RAW Sockets" in the lab manual.
+- Remember that to use raw sockets you must run the program with
+  admin privileges.
+- Build an ICMP message mimicking the one you have captured. Identical
+  at first. If it works, add your changes step by step.
+- To construct the message you can use struct.pack().
+- You can use the checksum calculation function in
+  https://bitbucket.org/arco_group/python-net/src/tip/raw/icmp_checksum.py
+- Constructs the ICMP message indicating a 0 in the checksum field. Calculate the
+  checksum and rebuilds the message using the calculation result.

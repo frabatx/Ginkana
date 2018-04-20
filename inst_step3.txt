@@ -1,0 +1,14 @@
+33404
+You passed the step 2!
+
+Step 3: HTTP Client
+---------------------
+
+- You must download the file
+  "http://atclab.esi.uclm.es:5000/33404".
+
+The file contains the instructions to continue.
+You have 6 seconds.
+
+Restrictions:
+- It is not allowed to use urllib, urllib2 and urllib3 modules.

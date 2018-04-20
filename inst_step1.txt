@@ -1,0 +1,28 @@
+73927
+You passed the step 0!
+(The maximum score (in the best case) is indicated )
+
+This is the server por the Network Computer ginkana.
+Version 0.20170622.
+
+Remember that you can see the server log in:
+http://atclab.esi.uclm.es/ginkana/
+
+Students are advised to use UTF-8 encoding in their terminal to avoid coding
+problems.
+
+Step 1: UDP
+-----------
+
+- Create a UDP server on your machine (on the port you want)
+- Send a message to the UDP server atclab.esi.uclm.es: 2000
+  indicating the identifier "73927" and the port on which you have created
+  your UDP server, separated by a space.
+  Example: "73927 7777" (without quotes).
+
+Your UDP server will receive the instructions to continue.
+You have 4 seconds.
+
+Hints:
+- Check that it is possible to connect to your UDP server from a machine with
+  a public IP (use netcat to check that).

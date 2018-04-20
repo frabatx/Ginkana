@@ -1,0 +1,29 @@
+1906
+You passed the step 1!
+
+Etapa 2: Aritmetic
+------------------
+
+- Connect to server atclab.esi.uclm.es:1906
+- You will receive a text string with a mathematical operation in ASCII format.
+- The expression contains parentheses and brackets, and are well balanced (there
+  are so many opening and closure).
+- Calculate the result of the operation and reply through the same socket, placing
+  the result within parentheses.
+- The process is repeated for an undetermined number of operations.
+
+If everything is right, the server will instruct you to continue.
+You have 20 seconds.
+
+Tracks:
+- The parentheses are vital, the spaces trivial.
+- The symbol '/' represents an entire division.
+- Example:
+   - server: (2 * [3+ 5] * {1 -0})
+   - client: (16)
+
+Restrictions:
+- It is not allowed to use the function eval(), exec() or any other that evaluates
+  python statements.
+
+You have 20 seconds.
