@@ -89,7 +89,7 @@ def init(port):
     print("Connection is closed")
 
 
-# Github code ""
+# Site of code "http://code.activestate.com/recipes/579122-simple-infix-expression-evaluation/"
 # The funcion can calcolate the expression.
 # 1) trasform all brackets into parenthesis
 # 2) use a stack to process the mathematical expression

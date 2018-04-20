@@ -43,8 +43,10 @@ def init(data):
     f.close()
     return instructions[:6]
 
-
+# Github link "https://bitbucket.org/arco_group/python-net/src/tip/raw/icmp_checksum.py"
 # The function do checksum of a data
+
+
 def checksum(data):
 
     def sum16(data):
