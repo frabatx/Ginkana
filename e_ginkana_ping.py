@@ -11,7 +11,7 @@ DEST = "atclab.esi.uclm.es"
 
 
 def init(data):
-    print("STEP 4--------------------")
+    print("--------------STEP 4--------------------")
     # create a socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_RAW, ICMP_CODE)
 
