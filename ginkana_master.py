@@ -10,8 +10,9 @@
 import a_ginkana_client as a
 import b_ginkana_server as b
 import c_ginkana_client as c
-# import d_ginkana_client_HTTP as d
-# import e_ginkana_ping as e
+import d_ginkana_client_HTTP as d
+import e_ginkana_ping as e
+import f_ginkana_proxy as f
 
 
 def main():
@@ -21,8 +22,9 @@ def main():
             code1 = a.init()                # STEP 0
             code2 = b.init(code1)           # STEP 1
             code3 = c.init(code2)           # STEP 2
-            # code4 = d.init(code3)         # STEP 3
-            # code5 = e.init(code4)         # STEP 4
+            code4 = d.init(code3)         # STEP 3
+            code5 = e.init(code4)         # STEP 4
+            f.Step5().run(code5)
             server_works_good = True
         except SyntaxError:
             print("Server sent invalid message...")

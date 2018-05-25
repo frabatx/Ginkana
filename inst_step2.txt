@@ -1,10 +1,10 @@
-1906
+1987
 You passed the step 1!
 
 Etapa 2: Aritmetic
 ------------------
 
-- Connect to server atclab.esi.uclm.es:1906
+- Connect to server atclab.esi.uclm.es:1987
 - You will receive a text string with a mathematical operation in ASCII format.
 - The expression contains parentheses and brackets, and are well balanced (there
   are so many opening and closure).

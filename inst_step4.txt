@@ -1,4 +1,4 @@
-74674
+74889
 You passed the step 3!
 
 Step 4: Ping
@@ -6,11 +6,11 @@ Step 4: Ping
 
 - You must send an ICMP Echo Request message to atclab.esi.uclm.es.
   The payload of this message must include, AFTER the usual
-  content, the ASCII string "74674".
+  content, the ASCII string "74889".
 
      +--------------+----------------------------+
      | Echo Request |                            |
-     | Header       | timestamp(8 bytes) + 74674 |
+     | Header       | timestamp(8 bytes) + 74889 |
      +--------------+----------------------------+
 
 - You will receive an ICMP Echo Reply message with just instructions to

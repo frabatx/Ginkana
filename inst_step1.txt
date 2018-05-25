@@ -1,4 +1,4 @@
-73927
+81274
 You passed the step 0!
 (The maximum score (in the best case) is indicated )
 
@@ -16,9 +16,9 @@ Step 1: UDP
 
 - Create a UDP server on your machine (on the port you want)
 - Send a message to the UDP server atclab.esi.uclm.es: 2000
-  indicating the identifier "73927" and the port on which you have created
+  indicating the identifier "81274" and the port on which you have created
   your UDP server, separated by a space.
-  Example: "73927 7777" (without quotes).
+  Example: "81274 7777" (without quotes).
 
 Your UDP server will receive the instructions to continue.
 You have 4 seconds.
