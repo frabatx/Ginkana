@@ -14,7 +14,7 @@ Restrictions:
 - It is not allowed to use urllib, urllib2 and urllib3 modules.
 
 '''
-import requests
+import requests as req
 
 
 # Main function to download file with module requests
@@ -24,7 +24,7 @@ def init(port):
     print("\n------------------STEP 3------------------\n")
     print("Beginning download...")
     url = "http://atclab.esi.uclm.es:5000/{}".format(port)
-    r = requests.get(url)
+    r = req.get(url)
 
     f = open("inst_step4.txt", "w+b")
     f.write(r.content)
